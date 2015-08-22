@@ -1,0 +1,23 @@
+{
+  "name": "izimmutable",
+  "version": "0.0.1",
+  "description": "An easy to use immutable library",
+  "author": "Anthony Camboni <anthony.camboni@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "node test"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/antca/izimmutable.git"
+  },
+  "keywords": [
+    "easy",
+    "immutable"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
+}
